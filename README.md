@@ -6,7 +6,7 @@
 
 - `docker run image ` - download image if not present and run image as container.
 
-- `docker run –it ubuntu bash` -  `-it` optoin tells docker to run command in interactive mode.
+- `docker run -t -i --privileged ubuntu bash` -  `-i` optoin tells docker to run command in interactive mode.
 
 - `docker run -p 80:8080/tcp ubuntu bash` - 80 hostport, 8080 container port
 
