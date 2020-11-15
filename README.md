@@ -31,4 +31,4 @@
 
 - `docker kill ContainerID` - kill the processes in a running container
 
-
+![Container Lifecycle](https://raw.githubusercontent.com/vishal-pandey/docker-cheatsheet/main/img/container_lifecycle.jpg "Container Lifecycle")
