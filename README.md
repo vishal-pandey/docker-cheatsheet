@@ -1,4 +1,4 @@
-### Docker Cheatsheet
+## Docker Cheatsheet
 - `docker images` - list of Docker images on the system
 
 - `docker run image ` - download image if not present and run image as container.
@@ -32,3 +32,29 @@
 - `docker kill ContainerID` - kill the processes in a running container
 
 ![Container Lifecycle](https://raw.githubusercontent.com/vishal-pandey/docker-cheatsheet/main/img/container_lifecycle.jpg "Container Lifecycle")
+
+
+### Dockerfile
+
+- `#` - for comments
+
+- `FROM` - tells docker, from which base image you want to base your image from
+
+- `RUN` - run instructions against the image
+
+- `docker build  -t ImageName:TagName dir` - Build image from dockerfile, -t for tagging, dir for location of Dockerfile
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
