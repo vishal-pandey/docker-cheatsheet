@@ -1,4 +1,7 @@
 ## Docker Cheatsheet
+
+![Docker Lifecycle](https://raw.githubusercontent.com/vishal-pandey/docker-cheatsheet/main/img/docker-lifecycle.jpg "Docker Lifecycle")
+
 - `docker images` - list of Docker images on the system
 
 - `docker run image ` - download image if not present and run image as container.
