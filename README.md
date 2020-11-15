@@ -69,6 +69,8 @@ Docker Compose is used to run multiple containers as a single service without th
 
 - `docker-compose up` - take the docker-compose.yml file in the local directory and start building the containers
 
+- `docker-compose down` - terminate all 
+
 
 
 
