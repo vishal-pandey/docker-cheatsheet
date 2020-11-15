@@ -28,6 +28,8 @@
 
 - `docker inspect Container/Image` - return low-level information on the container or image
 
+- `docker logs containerID` - to see the logs of the container
+
 - `docker attach ContainerID` - attach a running container
 
 - `docker pause ContainerID` - pause the processes in a running container
@@ -41,14 +43,29 @@
 
 ### Dockerfile
 
+Dockerfile is used to create images which in turn can be used to create containers.
+
 - `#` - for comments
 
 - `FROM` - tells docker, from which base image you want to base your image from
 
 - `RUN` - run instructions against the image
 
+- `CMD command param1` - execute a command at runtime when the container is executed 
+
+- `ENV key value` - set environment variables in the container
+
+- `WORKDIR dirname` - set the working directory of the container
+
 - `docker build  -t ImageName:TagName dir` - Build image from dockerfile, -t for tagging, dir for location of Dockerfile
 
+### DockerCompose
+
+Docker Compose is used to run multiple containers as a single service without the need to start each one separately.
+
+- `docker-compose.yml` - filename for docker compose
+
+- `docker-compose version` - details of the version of docker compose
 
 
 
