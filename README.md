@@ -23,6 +23,8 @@
 
 - `docker stats ContainerID` - statstics of a running container
 
+- `docker inspect Container/Image` - return low-level information on the container or image
+
 - `docker attach ContainerID` - attach a running container
 
 - `docker pause ContainerID` - pause the processes in a running container
